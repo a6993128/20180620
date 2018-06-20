@@ -37,3 +37,9 @@ mystr="足球，撞球，羽毛球，桌遊，看書，旅遊，電影，音樂"
 li = mystr.split('，') 
 print("該生的愛好有"+str(len(li))+"項")    
 
+x = 20000#本金 20000 元 
+years=0
+while x < 30000:
+    years += 1
+    x = x*(1+0.019)    
+print(str(years)+"年以後，存款會增加1倍")   
