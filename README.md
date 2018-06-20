@@ -32,3 +32,8 @@ for i in range(1,11) :
         for j in range(0,2*i-1):
             s +="*"
             print(s)
+            
+mystr="足球，撞球，羽毛球，桌遊，看書，旅遊，電影，音樂"    
+li = mystr.split('，') 
+print("該生的愛好有"+str(len(li))+"項")    
+
