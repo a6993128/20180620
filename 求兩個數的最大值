@@ -1,0 +1,4 @@
+numA=5  
+numB=6  
+if numA <= numB:   
+    print("numB它是比較大的數字")   
